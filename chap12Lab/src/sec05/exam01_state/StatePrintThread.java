@@ -7,7 +7,7 @@ public class StatePrintThread extends Thread {
 		this.targetThread = targetThread;
 	}
 
-	public void run() {
+	public void run() { 
 		while(true) {
 			Thread.State state = targetThread.getState();
 			System.out.println("타겟 스레드 상태: " + state);

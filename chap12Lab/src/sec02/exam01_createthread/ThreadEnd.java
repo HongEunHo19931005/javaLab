@@ -1,5 +1,5 @@
 package sec02.exam01_createthread;
-
+//Thread 하위 클래스
 public class ThreadEnd extends Thread {
 
 	@Override

@@ -13,3 +13,4 @@ public class InterruptExample {
 		thread.interrupt();
 	}
 }
+
